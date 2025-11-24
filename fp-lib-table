@@ -12,4 +12,6 @@
   (lib (name "IRLML6344TRPBF")(type "KiCad")(uri "${KIPRJMOD}/IRLML6344TRPBF")(options "")(descr ""))
   (lib (name "434121025816")(type "KiCad")(uri "${KIPRJMOD}/434121025816")(options "")(descr ""))
   (lib (name "ESP32_S3_WROOM_1U_N16R8")(type "KiCad")(uri "${KIPRJMOD}/ESP32_S3_WROOM_1U_N16R8")(options "")(descr ""))
+  (lib (name "LSM6DSVTR")(type "KiCad")(uri "${KIPRJMOD}/LSM6DSVTR")(options "")(descr ""))
+  (lib (name "SWITCH_0SMTRLFS-L")(type "KiCad")(uri "${KIPRJMOD}/SWITCH_0SMTRLFS-L")(options "")(descr ""))
 )

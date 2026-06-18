@@ -15,4 +15,5 @@
 	(lib (name "SWT0210-045026GSA_REVA") (type "KiCad") (uri "${KIPRJMOD}/SWT0210_045026GSA/SWT0210-045026GSA_REVA.kicad_sym") (options "") (descr ""))
 	(lib (name "TMUX1109RSVR") (type "KiCad") (uri "${KIPRJMOD}/TMUX1109RSVR/2026-06-17_22-59-15.kicad_sym") (options "") (descr ""))
 	(lib (name "2026-06-17_23-18-54") (type "KiCad") (uri "${KIPRJMOD}/541020164/2026-06-17_23-18-54.kicad_sym") (options "") (descr ""))
+	(lib (name "2026-06-18_22-09-09") (type "KiCad") (uri "${KIPRJMOD}/TPS7A0328PYCHR/2026-06-18_22-09-09.kicad_sym") (options "") (descr ""))
 )

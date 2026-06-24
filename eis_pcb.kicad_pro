@@ -273,7 +273,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "B"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -500,7 +500,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -832,7 +832,7 @@
         "uuid": "b9be45c7-595f-4fac-82ce-4faac3c4812a"
       }
     ],
-    "used_designators": "SW3,S1",
+    "used_designators": "SW3,C42,S1,J3,J5,R32-41,#PWR11,#PWR61,#PWR65-66,TP1-4",
     "variants": []
   },
   "sheets": [

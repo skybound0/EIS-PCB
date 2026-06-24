@@ -16,4 +16,5 @@
 	(lib (name "TMUX1109RSVR") (type "KiCad") (uri "${KIPRJMOD}/TMUX1109RSVR/2026-06-17_22-59-15.kicad_sym") (options "") (descr ""))
 	(lib (name "2026-06-17_23-18-54") (type "KiCad") (uri "${KIPRJMOD}/541020164/2026-06-17_23-18-54.kicad_sym") (options "") (descr ""))
 	(lib (name "SLW-864587-2A-RA-N-D") (type "KiCad") (uri "${KIPRJMOD}/SLW_864587_2A_RA_N_D/SLW-864587-2A-RA-N-D.kicad_sym") (options "") (descr ""))
+	(lib (name "eis_pcb-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/eis_pcb-eagle-import.kicad_sym") (options "") (descr ""))
 )

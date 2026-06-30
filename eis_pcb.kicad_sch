@@ -13103,7 +13103,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 91.44) (xy 308.61 91.44)
+			(xy 292.1 91.44) (xy 297.18 91.44)
 		)
 		(stroke
 			(width 0)
@@ -14453,16 +14453,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 90.17) (xy 290.83 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c862f39-4586-4a58-bb12-8945c209bf72")
-	)
-	(wire
-		(pts
 			(xy 163.83 60.96) (xy 163.83 68.58)
 		)
 		(stroke
@@ -14653,7 +14643,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 90.17) (xy 303.53 91.44)
+			(xy 292.1 90.17) (xy 292.1 91.44)
 		)
 		(stroke
 			(width 0)
@@ -14950,16 +14940,6 @@
 			(type default)
 		)
 		(uuid "762607f5-4e5f-4d6b-954b-1eb56eca4c52")
-	)
-	(wire
-		(pts
-			(xy 290.83 93.98) (xy 290.83 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76fac303-0e28-441d-8925-28e4985e5304")
 	)
 	(wire
 		(pts
@@ -16053,16 +16033,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 91.44) (xy 295.91 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2f036e1-6f53-4f48-b776-5ea1e5c44746")
-	)
-	(wire
-		(pts
 			(xy 77.47 36.83) (xy 77.47 39.37)
 		)
 		(stroke
@@ -16730,16 +16700,6 @@
 			(type default)
 		)
 		(uuid "d1696c6c-5850-4923-bfcc-41ace65a7a30")
-	)
-	(wire
-		(pts
-			(xy 290.83 93.98) (xy 295.91 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2580a91-353e-4ed3-97f1-82d01c07e470")
 	)
 	(wire
 		(pts
@@ -18141,16 +18101,6 @@
 		)
 		(uuid "651f9ae5-5e6c-4aa1-97f7-35e9d41f6a8e")
 	)
-	(label "DATA-"
-		(at 295.91 93.98 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "65e47e08-3bfb-4c1c-9263-09f8c5d50210")
-	)
 	(label "RST.MCU"
 		(at 213.36 38.1 0)
 		(effects
@@ -18342,7 +18292,7 @@
 		(uuid "976e4277-cb70-439a-af86-145aa4fbd459")
 	)
 	(label "IO1"
-		(at 308.61 91.44 0)
+		(at 297.18 91.44 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -18650,16 +18600,6 @@
 			(justify left bottom)
 		)
 		(uuid "d313968a-5878-47ce-bb65-f60a3cccecfb")
-	)
-	(label "DATA+"
-		(at 295.91 91.44 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6ae15e3-2d2d-41fb-8bfd-199a3c7cdef5")
 	)
 	(label "CE4"
 		(at 166.37 45.72 0)
@@ -19239,7 +19179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07d73d66-3b71-4e5b-af0c-bb7f4d610579")
-		(property "Reference" "P6"
+		(property "Reference" "P4"
 			(at 281.94 97.2819 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19300,7 +19240,7 @@
 		(instances
 			(project "eis_pcb"
 				(path "/b9be45c7-595f-4fac-82ce-4faac3c4812a"
-					(reference "P6")
+					(reference "P4")
 					(unit 1)
 				)
 			)
@@ -19861,85 +19801,6 @@
 			(project "eis_pcb"
 				(path "/b9be45c7-595f-4fac-82ce-4faac3c4812a"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 290.83 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16cf6c8d-58a8-4b73-a219-7f73b4f4a235")
-		(property "Reference" "P3"
-			(at 293.37 85.5979 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DATA+"
-			(at 293.37 88.1379 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 295.91 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 295.91 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 290.83 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea1ee290-a133-4760-8fc4-310570ce9ecb")
-		)
-		(instances
-			(project "eis_pcb"
-				(path "/b9be45c7-595f-4fac-82ce-4faac3c4812a"
-					(reference "P3")
 					(unit 1)
 				)
 			)
@@ -21962,7 +21823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "354dea45-b325-4208-a9af-881609943f72")
-		(property "Reference" "P5"
+		(property "Reference" "P3"
 			(at 281.94 85.5979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22023,7 +21884,7 @@
 		(instances
 			(project "eis_pcb"
 				(path "/b9be45c7-595f-4fac-82ce-4faac3c4812a"
-					(reference "P5")
+					(reference "P3")
 					(unit 1)
 				)
 			)
@@ -29370,85 +29231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 290.83 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1413989-1a2e-480b-809d-d57ef5e63ac4")
-		(property "Reference" "P4"
-			(at 293.37 97.2819 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DATA-"
-			(at 293.37 99.8219 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 285.75 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 290.83 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a920ece-5f74-4990-9e29-c7388efe5b8a")
-		)
-		(instances
-			(project "eis_pcb"
-				(path "/b9be45c7-595f-4fac-82ce-4faac3c4812a"
-					(reference "P4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 518.16 100.33 0)
 		(mirror y)
@@ -31586,7 +31368,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 303.53 90.17 0)
+		(at 292.1 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31596,8 +31378,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f36aa389-b0a9-4dac-bbd1-4cdcb620d945")
-		(property "Reference" "P7"
-			(at 306.07 85.5979 0)
+		(property "Reference" "P5"
+			(at 294.64 85.5979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31608,7 +31390,7 @@
 			)
 		)
 		(property "Value" "IO1"
-			(at 306.07 88.1379 0)
+			(at 294.64 88.1379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31619,7 +31401,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 308.61 90.17 0)
+			(at 297.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31630,7 +31412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 90.17 0)
+			(at 297.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31641,7 +31423,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 303.53 90.17 0)
+			(at 292.1 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31657,7 +31439,7 @@
 		(instances
 			(project "eis_pcb"
 				(path "/b9be45c7-595f-4fac-82ce-4faac3c4812a"
-					(reference "P7")
+					(reference "P5")
 					(unit 1)
 				)
 			)

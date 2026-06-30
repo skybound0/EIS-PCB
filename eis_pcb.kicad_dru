@@ -51,35 +51,11 @@
 
 # ----------------------------------- Via hole/diameter size (PICK ONE) ------------------------------------
 
-# 2-layer standard
-(rule "Minimum Via Diameter and Hole Size"
-(constraint hole_size (min 0.3mm))
-(constraint via_diameter (min 0.5mm))
-(condition "A.Type == 'via'"))
-
-# 4-layer standard
-#(rule "Minimum Via Diameter and Hole Size"
-#(constraint hole_size (min 0.3mm))
-#(constraint via_diameter (min 0.45mm))
-#(condition "A.Type == 'via'"))
-
 # 4-layer advanced
 #(rule "Minimum Via Diameter and Hole Size"
 #(constraint hole_size (min 0.25mm))
 #(constraint via_diameter (min 0.4mm))
 #(constraint disallow buried_via)
-#(condition "A.Type == 'via'"))
-
-# 4-layer advanced
-#(rule "Minimum Via Diameter and Hole Size"
-#(constraint hole_size (min 0.2mm))
-#(constraint via_diameter (min 0.35mm))
-#(condition "A.Type == 'via'"))
-
-# 4-layer advanced
-#(rule "Minimum Via Diameter and Hole Size"
-#(constraint hole_size (min 0.15mm))
-#(constraint via_diameter (min 0.3mm))
 #(condition "A.Type == 'via'"))
 
 # ----------------------------------- Drill/hole size ------------------------------------

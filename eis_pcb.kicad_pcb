@@ -22037,9 +22037,9 @@
 		(layer "Edge.Cuts")
 		(uuid "5bf0b974-38bd-4bf4-b018-a8a22cd14898")
 	)
-	(gr_text_box "EIS Mainboard\nLiwei Lin Lab\nDesigned by Eric Gu"
-		(start 100.75 111.066045)
-		(end 115.25 116.933955)
+	(gr_text_box "EIS Mainboard\nLiwei Lin Lab\nDesigned by Eric Gu and Akshay Shivkumar"
+		(start 101 109.5)
+		(end 117 117)
 		(margins 1.0025 1.0025 1.0025 1.0025)
 		(layer "B.SilkS")
 		(uuid "14ccc6a9-c1b8-4065-89cf-f28579e187bc")
@@ -22052,7 +22052,7 @@
 		)
 		(border no)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type solid)
 		)
 		(knockout no)
